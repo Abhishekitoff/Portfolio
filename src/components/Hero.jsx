@@ -5,7 +5,7 @@ const Hero = ({ light }) => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resume;
-    link.download = 'resume.pdf'; // You can change the name of the downloaded file if needed
+    link.download = 'resume.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
