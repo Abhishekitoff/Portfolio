@@ -18,7 +18,7 @@ const Contact = ({light}) => {
     },
   ]
   return (
-    <div className={`${light ? 'bg-white text-black' : 'bg-black text-white'} sm:h-[70vh] h-[60vh] py-10`}>
+    <div className={`${light ? 'bg-white text-black' : 'bg-black text-white'} sm:h-[70vh] h-[80vh] py-10`}>
       <div className="mb-8">
         <h1 className="text-5xl text-center font-semibold underline underline-offset-8">
           Soci<span className="text-[#14CF93] font-[Mazius]">a</span>ls
